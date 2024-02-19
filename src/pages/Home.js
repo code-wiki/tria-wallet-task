@@ -19,5 +19,6 @@ function HomePage(props) {
 }
 const mapStateToProps = (state) => ({
     UserName: state.UserName,
+    IsLoginComplete: state.IsLoginComplete,
 });
 export default connect(mapStateToProps)(HomePage);
